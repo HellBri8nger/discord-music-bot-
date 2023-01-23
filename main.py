@@ -85,7 +85,8 @@ async def loop(ctx):
         loopoff = asyncio.create_task(embeds.displayloopoff(ctx))
         lopsong = 0
 
-
+ffmpegvar = r'' #insert ffmpeg's location between the single quotes
+        
 @bot.command()
 async def songfunc(ctx):
     looop = asyncio.get_event_loop()
@@ -94,7 +95,7 @@ async def songfunc(ctx):
     song = data['url']
     print('The song is %s seconds long' %data['duration'])
     source = discord.FFmpegPCMAudio(song, **ffmpeg_options,
-                                    executable=r'C:\Users\rikki\Documents\code2\musicbot\ffmpeg\bin\ffmpeg.exe')
+                                    executable=ffmpegvar)
 
     print('playing')
     if not voice_client.is_playing():
