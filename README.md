@@ -8,7 +8,7 @@ discord.py
 youtube_dl
 youtube-search
 
-Just replace the token on the bottom in main.py and run it and the should work
+Just replace the token on the bottom in main.py and run it and the bot should work
 
 -add to add songs using url
 -search to search
@@ -19,5 +19,7 @@ the others are self explanatory
 -skip
 -pause
 -resume
+-loop
+
 
 
