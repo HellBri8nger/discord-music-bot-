@@ -8,6 +8,8 @@ discord.py
 youtube_dl
 youtube-search
 
+Just replace the token on the bottom in main.py and run it and the should work
+
 -add to add songs using url
 -search to search
 -play to play the songs in the queue
