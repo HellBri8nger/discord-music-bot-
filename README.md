@@ -7,6 +7,7 @@ Need :
 discord.py
 youtube_dl
 youtube-search
+ffmpeg
 
 Just replace the token on the bottom in main.py and run it and the bot should work
 
@@ -22,4 +23,4 @@ the others are self explanatory
 -loop
 
 
-
+I don't think anyone would come to this repo but If you did and If you're confused on how to install it start a new Issue I'll update the readme file and help you to install it 
